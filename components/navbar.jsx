@@ -1,15 +1,10 @@
-import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
-import { Disclosure } from "@headlessui/react";
+import Link from 'next/link';
+import ThemeChanger from './DarkSwitch';
+import { Disclosure } from '@headlessui/react';
+import { GiCook } from 'react-icons/gi';
 
 export default function Navbar() {
-  const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
-  ];
+  const navigation = ['Product', 'Features', 'Pricing'];
 
   return (
     <div className="w-full">
@@ -22,25 +17,28 @@ export default function Navbar() {
                 <Link href="/">
                   <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
-                      <img
+                      <GiCook color="white" size="24" />
+                      {/* <img
                         src="/img/logo.svg"
                         alt="N"
                         width="32"
                         height="32"
                         className="w-8"
-                      />
+                      /> */}
                     </span>
-                    <span>Nextly</span>
+                    <span>Waroeng Mbak Fi'ah</span>
                   </a>
                 </Link>
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
+                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                >
                   <svg
                     className="w-6 h-6 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24">
+                    viewBox="0 0 24 24"
+                  >
                     {open && (
                       <path
                         fillRule="evenodd"

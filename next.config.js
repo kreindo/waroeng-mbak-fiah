@@ -1,9 +1,12 @@
 module.exports = {
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+  images: {
+    domains: ['images.unsplash.com', 'loremflickr.com'],
   },
-  target: "serverless",
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
+  target: 'serverless',
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback.fs = false;
