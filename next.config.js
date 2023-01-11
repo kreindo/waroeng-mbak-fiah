@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ['images.unsplash.com', 'loremflickr.com'],
+    domains: ['images.unsplash.com', 'loremflickr.com', 'github.com'],
   },
   i18n: {
     locales: ['en'],

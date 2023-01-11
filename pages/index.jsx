@@ -38,13 +38,14 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page"
-      >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+      <div id="Product" />
+      <SectionTitle title="Kenapa beli disini?">
+        Rasakan kenikmatan masakan tradisional dengan sentuhan modern di Waroeng
+        Mbak Fi'ah. Warung makanan yang menyajikan sayur mateng dan cemilan yang
+        lezat dan berkualitas. Dikelola oleh Mbak Fi'ah yang memiliki pengalaman
+        dalam bidang masakan, semua makanan kami diolah dengan bahan-bahan segar
+        dan dipastikan menyehatkan. Datanglah dan rasakan sensasi makan yang
+        berbeda di Waroeng Mbak Fi'ah.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -72,6 +73,13 @@ export default function Home() {
       <Faq />
       <Cta />
       <Footer />
+      <script
+        async
+        src="https://whatsform.com/launcher.js"
+        id="wf-widget"
+        data-id="HLXJwB"
+        data-message="Message on WhatsApp"
+      ></script>
       {/* <PopupWidget /> */}
     </>
   );

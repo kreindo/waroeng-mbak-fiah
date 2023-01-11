@@ -85,6 +85,18 @@ export default function Hero() {
               <CardFood />
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <CardFood />
+            </div>
+            <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <CardFood />
+            </div>
+            <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <CardFood />
+            </div>
+            <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <CardFood />
+            </div>
+            {/* <div className="pt-2 text-gray-400 dark:text-gray-400">
               <AmazonLogo />
             </div>
             <div className="text-gray-400 dark:text-gray-400">
@@ -98,7 +110,7 @@ export default function Hero() {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <SonyLogo />
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>
@@ -109,7 +121,15 @@ export default function Hero() {
 function CardFood() {
   return (
     <div className="p-2">
-      <div className="flex p-10 flex-col justify-center rounded-md bg-gray-700 dark:bg-white items-center">
+      <div className="flex px-24 py-36 flex-col justify-center rounded-md bg-gray-700 dark:bg-white items-center">
+        <div className="w-24 h-36 rounded-md">
+          <Image
+            className="rounded-md"
+            src={
+              'https://scontent.fupg6-1.fna.fbcdn.net/v/t39.30808-6/324852201_510909214466724_2264662599004071540_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGAn-zkuIVmvj4z8JfSNrbaRe3x6Y8bmPZF7fHpjxuY9rY3keZKHbuThNSBA1AXEb6P2Acqypvz7nS8WU8PaiEs&_nc_ohc=sICX5SQEmgcAX8EUNli&_nc_oc=AQlMWnCNLa8HxSDaWnkWwCRlzGpnYd3vrjO2hqLcyRbrru84gY_o9rKZQtDPA4IdKFA&_nc_ht=scontent.fupg6-1.fna&oh=00_AfAGM2FxI1Q4hWAuSbpj6Uy6yIcnfTNoLCk686tGV6Yx6Q&oe=63C42510'
+            }
+          />
+        </div>
         <GiCook className="bg-white" />
       </div>
     </div>

@@ -43,13 +43,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script
-          async
-          src="https://whatsform.com/launcher.js"
-          id="wf-widget"
-          data-id="HLXJwB"
-          data-message="Message on WhatsApp"
-        ></script>
       </Html>
     );
   }
