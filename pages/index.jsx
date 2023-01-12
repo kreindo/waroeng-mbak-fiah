@@ -7,10 +7,9 @@ import { benefitOne, benefitTwo } from '../components/data';
 import Video from '../components/video';
 import Benefits from '../components/benefits';
 import Footer from '../components/footer';
-import Testimonials from '../components/testimonials';
+import Apple from '../components/testimonials';
 import Cta from '../components/cta';
 import Faq from '../components/faq';
-// import PopupWidget from '../components/popupWidget';
 
 //import dynamic from "next/dynamic";
 
@@ -39,7 +38,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <div id="Product" />
-      <SectionTitle title="Kenapa beli disini?">
+      <SectionTitle title="Traditional, Modern">
         Rasakan kenikmatan masakan tradisional dengan sentuhan modern di Waroeng
         Mbak Fi'ah. Warung makanan yang menyajikan sayur mateng dan cemilan yang
         lezat dan berkualitas. Dikelola oleh Mbak Fi'ah yang memiliki pengalaman
@@ -48,28 +47,12 @@ export default function Home() {
         berbeda di Waroeng Mbak Fi'ah.
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don't forget to add one. Just like this.
+
+      <SectionTitle title="Harga terjangkau">
+        Kami menyediakan berbagai macam menu dengan harga yang terjangkau. Kami
+        yakin anda akan merasa puas dengan makanan yang kami sajikan.
       </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
-      </SectionTitle>
-      <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
+      <Apple />
       <Faq />
       <Cta />
       <Footer />
@@ -78,7 +61,7 @@ export default function Home() {
         src="https://whatsform.com/launcher.js"
         id="wf-widget"
         data-id="HLXJwB"
-        data-message="Message on WhatsApp"
+        data-message="Pesan lewat WhatsApp"
       ></script>
       {/* <PopupWidget /> */}
     </>

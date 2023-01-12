@@ -7,7 +7,7 @@ import Container from './container';
 
 export default function Footer() {
   const navigation = ['Product', 'Features', 'Pricing'];
-  const legal = ['Terms', 'Privacy', 'Legal'];
+  // const legal = ['Terms', 'Privacy', 'Legal'];
   return (
     <div className="relative">
       <Container>
@@ -18,23 +18,18 @@ export default function Footer() {
               <Link href="/">
                 <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                   <span>
-                    <img
-                      src="/img/logo.svg"
-                      alt="N"
-                      width="32"
-                      height="32"
-                      className="w-8"
-                    />
+                    <GiCook />
                   </span>
-                  <span>Nextly</span>
+                  <span>Waroeng Mbak Fi'ah</span>
                 </a>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+              Waroeng Mbak Fi'ah, sebuah warung makanan yang menjual sayur
+              mateng dan cemilan lezat yang diolah dengan bahan-bahan
+              berkualitas tinggi. Kami percaya bahwa makanan yang sehat dan
+              bergizi dapat memberikan manfaat yang besar bagi kesehatan kita.
             </div>
 
             <div className="mt-5">
@@ -66,7 +61,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div>
+          {/* <div>
             <div
               id="apple"
               className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0"
@@ -79,7 +74,7 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
           <div className="">
             <div>Ikuti</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
