@@ -64,9 +64,12 @@ export default function Navbar() {
                         </a>
                       </Link>
                     ))}
-                    <Link href="/">
+                    <Link href="https://facebook.com/mamaknya.achsanin/photos">
                       <a className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        Get Started
+                        <span className="flex justify-center items-center gap-2">
+                          <GiCook />
+                          Daftar Menu
+                        </span>
                       </a>
                     </Link>
                   </>
@@ -92,9 +95,12 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/">
+          <Link href="https://facebook.com/mamaknya.achsanin/photos">
             <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+              <span className="flex items-center gap-2">
+                <GiCook />
+                Daftar Menu
+              </span>
             </a>
           </Link>
 

@@ -2,10 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 import Container from './container';
 
-import userOneImg from '../public/img/user1.jpg';
-import userTwoImg from '../public/img/user2.jpg';
-import userThreeImg from '../public/img/user3.jpg';
-
 export default function Apple() {
   return (
     <Container>
@@ -13,7 +9,7 @@ export default function Apple() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="relative flex flex-col justify-between w-full h-full bg-gray-100 px-48 rounded-2xl py-48 dark:bg-trueGray-800">
             <Image
-              src={'https://loremflickr.com/300/300/asian-dishes?random=1'}
+              src={'/img/product/1.jpg'}
               className="rounded-2xl"
               layout={'fill'}
               objectFit={'cover'}
@@ -23,7 +19,7 @@ export default function Apple() {
         <div className="">
           <div className="relative flex flex-col justify-between w-full h-full bg-gray-100 px-48 rounded-2xl py-48 dark:bg-trueGray-800">
             <Image
-              src={'https://loremflickr.com/300/300/bakso?random=1'}
+              src={'/img/product/2.jpg'}
               className="rounded-2xl"
               layout={'fill'}
               objectFit={'cover'}
@@ -33,7 +29,7 @@ export default function Apple() {
         <div className="">
           <div className="relative flex flex-col justify-between w-full h-full bg-gray-100 px-48 rounded-2xl py-48 dark:bg-trueGray-800">
             <Image
-              src={'https://loremflickr.com/300/300/nasigoreng?random=1'}
+              src={'/img/product/3.jpg'}
               className="rounded-2xl"
               layout={'fill'}
               objectFit={'cover'}

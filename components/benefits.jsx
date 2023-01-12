@@ -9,7 +9,7 @@ export default function Benefits(props) {
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
-          className={`flex items-center justify-center w-full lg:w-1/2 ${
+          className={`relative flex items-center justify-center w-full lg:w-1/2 ${
             props.imgPos === 'right' ? 'lg:order-1' : ''
           }`}
         >
@@ -19,8 +19,8 @@ export default function Benefits(props) {
               width="521"
               height="482"
               alt="Benefits"
-              layout="intrinsic"
-              objectFit="fill"
+              layout="fill"
+              objectFit="cover"
               placeholder="blur"
             />
           </div>
