@@ -2,10 +2,7 @@ import React from 'react';
 import Container from './container';
 import { Disclosure } from '@headlessui/react';
 import { ChevronUpIcon } from '@heroicons/react/solid';
-import Slider from 'react-slick';
 import Image from 'next/image';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 export default function Faq() {
   return (
@@ -34,58 +31,6 @@ export default function Faq() {
         ))}
       </div>
       <div className="p-10"></div>
-      <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
-        <Slider infinite dots slidesToScroll={1} slidesToShow={1} arrows>
-          <div className="w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-          <div className="mx-auto w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-          <div className="mx-auto w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-          <div className="mx-auto w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-          <div className="mx-auto w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-          <div className="mx-auto w-300 h-300">
-            <Image
-              src={'https://loremflickr.com/300/300'}
-              alt={'*'}
-              width={300}
-              height={300}
-            />
-          </div>
-        </Slider>
-      </div>
     </Container>
   );
 }
