@@ -32,12 +32,12 @@ export default function Home() {
           name="description"
           content="Waroeng Mbak Fi'ah, sebuah warung makanan yang menjual sayur mateng dan cemilan lezat yang diolah dengan bahan-bahan berkualitas tinggi"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
       <Navbar />
       <Hero />
-      <div id="Product" />
+      <div id="Layanan" />
       <SectionTitle title="Traditional, Modern">
         Rasakan kenikmatan masakan tradisional dengan sentuhan modern di Waroeng
         Mbak Fi'ah. Warung makanan yang menyajikan sayur mateng dan cemilan yang
