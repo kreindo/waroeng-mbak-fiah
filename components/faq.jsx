@@ -37,21 +37,22 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: 'Is this template completely free to use?',
-    answer: 'Yes, this template is completely free to use.',
-  },
-  {
-    question: 'Can I use it in a commercial project?',
-    answer: 'Yes, this you can.',
-  },
-  {
-    question: 'What is your refund policy? ',
+    question: 'Apa saja menu yang tersedia di Waroeng Mbak Fiah?',
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      'Kami menyajikan berbagai pilihan menu sayur mateng dan cemilan yang lezat dan berkualitas. Anda dapat mengecek menu kami di halaman Facebook kami di https://www.facebook.com/mamaknya.achsanin/about',
   },
   {
-    question: 'Do you offer technical support? ',
+    question: 'Bagaimana cara memesan makanan di Waroeng Mbak Fiah?',
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      'Anda dapat memesan makanan di Waroeng Mbak Fiah dengan menghubungi kami di nomor +6281315126056 atau mengunjungi halaman Facebook kami di https://www.facebook.com/mamaknya.achsanin/about',
+  },
+  {
+    question: 'Apakah Waroeng Mbak Fiah memiliki layanan pengantaran?',
+    answer: 'Kami menyediakan layanan pengantaran.',
+  },
+  {
+    question: 'Apakah Waroeng Mbak Fiah memiliki layanan untuk acara khusus?',
+    answer:
+      'Ya, kami menyediakan layanan untuk acara khusus seperti pesta, arisan, dll. Anda dapat menghubungi kami untuk informasi lebih lanjut dan untuk memesan menu yang sesuai dengan acara Anda.',
   },
 ];
