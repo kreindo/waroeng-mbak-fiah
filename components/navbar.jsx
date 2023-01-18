@@ -61,7 +61,7 @@ export default function Navbar() {
                       <Link
                         key={index}
                         href={`${
-                          menu == 'Product'
+                          item == 'Product'
                             ? 'https://facebook.com/mamaknya.achsanin/photos'
                             : `#${item}`
                         }`}
