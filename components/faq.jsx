@@ -2,13 +2,12 @@ import React from 'react';
 import Container from './container';
 import { Disclosure } from '@headlessui/react';
 import { ChevronUpIcon } from '@heroicons/react/solid';
-import Image from 'next/image';
 
 export default function Faq() {
   return (
     <Container className="!p-0">
-      <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
-        {faqdata.map((item, index) => (
+      <div id="Pertanyaan" className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
+        {faqdata.map((item) => (
           <div key={item.question} className="mb-5">
             <Disclosure>
               {({ open }) => (
@@ -37,15 +36,22 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: 'Apakah ada biaya tambahan untuk layanan pesan antar?',
-    answer: 'Biaya tambahan untuk layanan pesan antar bervariasi tergantung pada jarak dan kondisi lalu lintas.',
+    question: 'Apa saja menu yang tersedia di Waroeng Mbak Fiah?',
+    answer:
+      'Kami menyajikan berbagai pilihan menu sayur mateng dan cemilan yang lezat dan berkualitas. Anda dapat mengecek menu kami di halaman Facebook kami di https://www.facebook.com/mamaknya.achsanin/about',
   },
   {
-    question: 'Bagaimana cara memesan makanan?',
-    answer: 'Anda dapat memesan makanan melalui telepon, atau facebook messenger.',
+    question: 'Bagaimana cara memesan makanan di Waroeng Mbak Fiah?',
+    answer:
+      'Anda dapat memesan makanan di Waroeng Mbak Fiah dengan menghubungi kami di nomor +6281315126056 atau mengunjungi halaman Facebook kami di https://www.facebook.com/mamaknya.achsanin/about',
   },
   {
-    question: 'Apakah ada batasan jarak untuk layanan pesan antar?',
-    answer: 'Ada batasan jarak untuk layanan pesan antar, karena warung UMKM hanya melayani pesanan di daerah terdekat.',
+    question: 'Apakah Waroeng Mbak Fiah memiliki layanan pengantaran?',
+    answer: 'Kami menyediakan layanan pengantaran.',
+  },
+  {
+    question: 'Apakah Waroeng Mbak Fiah memiliki layanan untuk acara khusus?',
+    answer:
+      'Ya, kami menyediakan layanan untuk acara khusus seperti pesta, arisan, dll. Anda dapat menghubungi kami untuk informasi lebih lanjut dan untuk memesan menu yang sesuai dengan acara Anda.',
   },
 ];
